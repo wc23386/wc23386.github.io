@@ -396,8 +396,8 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "projects-project-1",
-          title: 'project 1',
+    },{id: "projects-multilayered-network-ml-analysis-of-news-credibility-and-community-vulnerability-to-misinformation",
+          title: 'Multilayered Network ML Analysis of News Credibility and Community Vulnerability to Misinformation',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
