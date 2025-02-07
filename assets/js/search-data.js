@@ -398,7 +398,7 @@ ninja.data = [{
       },
     },{id: "projects-multilayered-network-ml-analysis-of-news-credibility-and-community-vulnerability-to-misinformation",
           title: 'Multilayered Network ML Analysis of News Credibility and Community Vulnerability to Misinformation',
-          description: "with background image",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
