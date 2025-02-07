@@ -1,27 +1,24 @@
 ---
 layout: page
-title: project 1
+title: Multilayered Network ML Analysis of News Credibility and Community Vulnerability to Misinformation
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/projects/[P1 background] social_network.webp
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Multilayered Network ML Analysis of News Credibility and Community Vulnerability to Misinformation
+📅 Project Duration: September 2024 – December 2024
+This project explores how online communities engage with political misinformation, using Reddit as a case study. By constructing a multilayered network of news sources based on credibility and analyzing user interactions, the study identifies communities most susceptible to low-credibility or biased content.
+## Key Methods:
+1. LLM-Based Credibility Scoring & Bias Analysis: Implementing a language model architecture to assign credibility scores across nine news sources, positioning communities within a credibility-bias space to track their media exposure and engagement trends.
+2. User Embedding & Community Detection: Mapping user groups based on relationships between posts and news sources.
+3. ACE Scoring for Anomaly Detection: Identifying behavioral anomalies in heterogeneous networks to highlight communities at higher risk.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The project’s main contribution lies in understanding how media exposure influences community susceptibility over time, offering insights into misinformation spread and potential mitigation strategies. [P1 poster](assets/img/projects/[P1 poster] Community_Susceptibility_Detection_to_Misinformation.pdf) [P1 paper](assets/img/projects/[P1 paper] Community_Susceptibility_Detection_to_Misinformation.pdf)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -78,4 +75,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
