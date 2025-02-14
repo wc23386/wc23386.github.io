@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p></p>
     <p>Austin, TX 78752</p>
-    <p>weichun.chang1997@gmail.com</p>
+    <p><a href="mailto:weichun.chang1997@gmail.com">weichun.chang1997@gmail.com</a></p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
