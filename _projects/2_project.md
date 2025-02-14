@@ -1,81 +1,41 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Comparative Analysis of Reinforcement Learning for Carbon-Aware Energy Management Systems
+img: assets/img/projects/[P2 background] EMS.svg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+📅 **Project Duration:** January 2024 – May 2024
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Overview
+This project investigates the potential of reinforcement learning (RL) to optimize energy management systems (EMS) in modern infrastructures, focusing on buildings. The research leverages time-series data from advanced control systems to enhance real-time battery charging and scheduling, addressing the challenge of balancing fluctuating energy demand with available resources.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Key Contributions
+### 1. Real-Time Decision Making
+- Implementation of RL models and MDP framework
+- Dynamic adaptation to fluctuating energy demands
+- Policy optimization for real-time decision-making
+- Integration with variable renewable energy generation
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### 2. Multi-Objective Energy Purchasing Optimization
+- Development of intelligent scheduling strategies
+- Consideration of multiple factors:
+  - Load demand patterns
+  - Grid electricity pricing
+  - Solar power generation
+  - Battery state of charge (SoC)
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### 3. Sustainable Energy Integration
+- Integration of PV power generation systems
+- Carbon pricing implementation
+- Battery optimization strategies
+- Support for carbon-aware energy management
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Impact
+This research demonstrates how data-driven, intelligent energy management can lead to more sustainable, cost-effective infrastructures, contributing to global sustainability efforts by reducing carbon footprints and optimizing renewable energy use.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+## Resources
+- [🎥 Project Video](https://youtu.be/8Icm6vOU32g)
+- [📄 Project Paper](assets/img/projects/[P2_paper]-Comparative_Analysis_of_Reinforcement_Learning_for_Carbon-Aware_Energy_Management_Systems.pdf) 

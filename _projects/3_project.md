@@ -1,81 +1,63 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Weather-Coupled Topology Analysis of Texas Renewable Power Grid Using GNNs and Representation Learning
+img: assets/img/projects/[P3 background] Texas_renewable_power_grid.svg
 importance: 3
 category: work
+related_publications: true
+github: https://github.com/wc23386/weatherOPF
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+📅 **Project Duration:** December 2023 – May 2024
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Overview
+This project develops a novel framework for analyzing weather-dependent power grid dynamics using Graph Neural Networks (GNNs) and representation learning. By integrating weather data with power grid topology, we aim to improve the reliability and efficiency of renewable energy integration in the Texas power grid.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Technical Implementation
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### 1. Weather-Grid Coupling
+- **Data Integration**:
+  - ERCOT grid topology data
+  - NOAA weather station measurements
+  - Renewable generation time series
+- **Spatial Correlation Analysis**:
+  - Weather station to grid node mapping
+  - Spatial interpolation for missing data points
+  - Temporal alignment of weather and power data
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### 2. GNN Architecture
+- **Graph Structure**:
+  - Nodes: Power generation/consumption points
+  - Edges: Transmission lines and weather correlations
+  - Features: Weather parameters and grid states
+- **Learning Components**:
+  - Message passing neural networks
+  - Attention mechanisms for weather impact
+  - Temporal convolution layers
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### 3. Optimization Framework
+- **Objective Functions**:
+  - Power flow optimization
+  - Renewable integration maximization
+  - Grid stability constraints
+- **Weather-Aware Constraints**:
+  - Temperature-dependent line ratings
+  - Wind/solar generation forecasts
+  - Extreme weather contingencies
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Key Results
+- Improved renewable energy forecasting accuracy by 15%
+- Enhanced grid stability under extreme weather conditions
+- Reduced computational complexity for real-time operations
+- Developed scalable solutions for large-scale power systems
 
-{% raw %}
+## Impact
+The project contributes to:
+- More reliable integration of renewable energy
+- Better grid resilience against weather events
+- Reduced operational costs and carbon emissions
+- Enhanced power system planning capabilities
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+## Resources
+- [💻 GitHub Repository](https://github.com/wc23386/weatherOPF)
+- [📄 Research Paper](assets/img/projects/[P3_paper]-Weather-Coupled_Topology_Analysis_of_Texas_Renewable_Power_Grid_Using_GNNs_and_Representation_Learning.pdf) 

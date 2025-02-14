@@ -158,11 +158,6 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
-
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
@@ -207,6 +202,14 @@ exclude:
   - _pages/dropdown.md
   - _includes/news.liquid
   - _news/
+  - _projects_old/
+  - _pages/blog.md
+  - _pages/repositories.md
+  - _pages/people.md
+  - _posts/
+  - _includes/repository/
+  - _includes/latest_posts.liquid
+  - _includes/related_posts.liquid
 
 keep_files:
   - CNAME
@@ -653,3 +656,7 @@ jsonresume:
   - languages
   - interests
   - references
+
+email: weichun.chang1997@gmail.com
+footer_text: >
+  Austin TX 78752

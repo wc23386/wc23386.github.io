@@ -11,19 +11,26 @@ profile:
   more_info: >
     <p></p>
     <p>Austin, TX 78752</p>
+    <p>weichun.chang1997@gmail.com</p>
 
 news: false # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Hi! I am an upcoming ECE MS Graduate (Spring 2025) from the University of Texas at Austin, seeking full-time opportunities as an .... 
+## About Me
 
-During my time at UT, I interned at Arcus, researched NLP + Robotics, GNN weather forecast models, and more! 
+I am a soon-to-be graduate in Electrical and Computer Engineering, specializing in machine learning and data processing. My research focuses on:
 
-<!-- I love Joe Joe. -->
+- **Machine Learning Applications**: Deep learning, GNNs, and LLMs for real-world systems
+- **Robotics**: LLM-driven code generation for robotics navigation
+- **Energy Systems**: Power grid optimization and carbon-aware energy management
+- **Network Analysis**: Social network dynamics and information flow patterns
 
+### Technical Skills
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+- **Core**: Python, SQL, R
+- **ML/DL**: PyTorch, TensorFlow, Graph Neural Networks
+- **Tools**: Git, Linux, Automated Testing, Docker
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently seeking opportunities to apply ML expertise in intelligent systems and developing scalable, data-driven solutions for business strategies.
